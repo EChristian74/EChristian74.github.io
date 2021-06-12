@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Eric Christian Boland</title>
+        <link rel="stylesheet" type="text/css" href="./stylesheet/portfolio.css">
+    </head>
+
+    <!-- Body -->
+    <body class="Background">
+        
+        <!-- Navbar -->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+            </div>
+        </div>
+
+        <!-- Breaks inserted to add space between navbar and the first heading -->
+        <br>
+        <br>
+
+        <!-- Background video -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/video/coding_vid.mp4" type="video/mp4">
+                <!-- Display message if video fails to run -->
+                Your browser does not support HTML5 video.
+            </video>
+
+        </div>
+
+        <!-- Video text -->
+        <div class="Video_Text">
+            <h1 class="white-text">Eric Christian Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Innovation is the unrelenting drive to break the status quo 
+                        <br>and develop anew where few have dared to go.                        
+                    </q>
+                    <br><br><a href="http://www.stevenjeffes.com/">-Steven Jeffes, Marketing & business expert</a>
+                    <br>
+                    <br> Good day, my name is Eric.  I welcome you to take a few moments to appraise the worth of this portfolio, especially the linked information that will provide the detail of greatest value. 
+                    <br>
+                    <br> I am grateful for your time and your attention. 
+                </p>
+            </strong>
+        </div>
+
+        <!-- About section -->
+        <div class="Row" id="About">
+            <!-- Left column -->
+            <div class="Column_2">
+                <img src="./images/Profile Face Shot.png" alt="Profile Shot">
+            </div>
+            <!-- Right column -->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a seasoned professional with a unrealized life-long dream to be a software developer 
+                    <br>
+                    <br>As a complement to my prior experience, I recently attended and am a recent graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy's</a>Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>My career objective is to leverage my prior experience to land a position an entry-level software developer. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- GitHub section -->
+        <div class="Row" id="GitHub">
+            <!-- Left column -->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/EChristian74" target="_blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!-- Right column -->
+            <div class="Column_2">
+                <a href="https://github.com/EChristian74" target="_blank"><img src="./images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!-- Contact section -->
+        <div class="Row" id="Contact">
+            <!-- Contact image, left column -->
+            <div class="Column_2 Column_tall">
+                <a href="https://www.linkedin.com/in/christianmethodical/">
+                <img src="./images/linkedinicon.jpg" alt="LinkedIn"></a>
+            </div>
+            <!-- Contact form, right column -->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!-- This specifies where and how to send the form data; we are leaving it blank -->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Eric Christian Boland">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="christianmethodical@gmail.com">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
