@@ -3,10 +3,11 @@
     <!-- Head -->
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width">
         <title>Eric Christian Boland</title>
         <link rel="stylesheet" type="text/css" href="./stylesheet/portfolio.css">
     </head>
+    <!-- /Head -->
 
     <!-- Body -->
     <body class="Background">
@@ -17,8 +18,10 @@
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
             <a href="#Contact">Contact</a>
+            <a href="#Contact">LinkedIn</a>
             </div>
         </div>
+        <!-- /Navbar -->
 
         <!-- Breaks inserted to add space between navbar and the first heading -->
         <br>
@@ -31,12 +34,13 @@
                 <!-- Display message if video fails to run -->
                 Your browser does not support HTML5 video.
             </video>
-
         </div>
+        <!-- /Background video -->
 
         <!-- Video text -->
         <div class="Video_Text">
-            <h1 class="white-text">Eric Christian Portfolio</h1>
+            <h1 class="white-text">Eric Christian Boland</h1>
+            <h1 class="white-text">Entry-Level Developer</h1>
             <strong>
                 <p class="center">
                     <q>Innovation is the unrelenting drive to break the status quo 
@@ -44,31 +48,100 @@
                     </q>
                     <br><br><a href="http://www.stevenjeffes.com/">-Steven Jeffes, Marketing & business expert</a>
                     <br>
-                    <br> Good day, my name is Eric.  I welcome you to take a few moments to appraise the worth of this portfolio, especially the linked information that will provide the detail of greatest value. 
+                    <br>Good day, my name is Eric.  I invite you to take a few moments to appraise the merit
+                    <br> 
+                    of my documented talents and experience, not to mention my acute capacity to expand my horizons 
                     <br>
-                    <br> I am grateful for your time and your attention. 
+                    <br>could offer to positively impact the tactical and strategic objectives of your organization.
+                    <br>
+                    <br>I am grateful for your time and your attention. 
                 </p>
             </strong>
         </div>
+        <!-- /Video text -->
 
         <!-- About section -->
         <div class="Row" id="About">
             <!-- Left column -->
             <div class="Column_2">
-                <img src="./images/Profile Face Shot.png" alt="Profile Shot">
+                <img src="./images/Profile Face Shot.jpg" alt="Profile Shot">
             </div>
+            <!-- /Left column -->
             <!-- Right column -->
             <div class="Column_1">
                 <h1>About</h1>
                 <p>
-                    I am a seasoned professional with a unrealized life-long dream to be a software developer 
+                    I am a seasoned professional with a unrealized life-long dream to be a software developer. 
                     <br>
-                    <br>As a complement to my prior experience, I recently attended and am a recent graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy's</a>Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>As a complement to my prior experience, I am a recent graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy's</a> Software Developer Boot Camp.  Completion of this premier program has included almost 1,000 hours of study, content, and activities and a live project covering both front-end and back-end software development.  Further, this program gave me training and experience in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
                     <br>
-                    <br>My career objective is to leverage my prior experience to land a position as an entry-level software developer. <a href="#Contact">Contact</a> me below!
+                    <br>My career objective is to leverage my prior experience and newly acquired skills to land a position an entry-level software developer. <a href="#Contact">Contact</a> me below!
                 </p>
             </div>
+             <!-- /Right column -->
         </div>
+        <!-- /About section -->
+
+        <!-- Slideshow Container -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade" style="display: none;">
+                        <img class="Slideshow_Images" src="images/html5-2.jpg"> 
+                        <div class="text">Full-stack developer: HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- /Slide 1 of 6 -->
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade" style="display: none;">
+                        <img class="Slideshow_Images" src="images/python.png">
+                        <div class="text">including Python,</div>
+                    </div>
+                    <!-- /Slide 2 of 6 -->
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade" style="display: block;">
+                        <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png">
+                        <div class="text"> and C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+                     <!-- /Slide 3 of 6 -->
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade" style="display: none;">
+                        <img class="Slideshow_Images" src="images/sql.png"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                     <!-- /Slide 4 of 6 -->
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade" style="display: none;">
+                        <img class="Slideshow_Images" src="images/visual-studio-code-codersera.jpg"> 
+                        <div class="text">Visual Studio Code</div>
+                    </div>
+                    <!-- /Slide 5 of 6 -->
+                    <!-- Slide 6 of 6 -->
+                    <div class="mySlides fade" style="display: none;">
+                        <img class="Slideshow_Images" src="images/hands_coding.jpg"> 
+                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Let's meet to discuss how I can add value to your future projects!</a></div> 
+                    </div>
+                    <!-- /Slide 6 of 6 -->
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                    <!-- /Previous and next buttons -->
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+                <!-- /Slideshow dots (these are another way for users to navigate through the slideshow) -->
+            </div>
+        </div>
+        <!-- /Slideshow Container -->
 
         <!-- GitHub section -->
         <div class="Row" id="GitHub">
@@ -81,33 +154,39 @@
                     <p class="center"><a href="https://github.com/EChristian74" target="_blank">The Tech Academy Github</a></p>
                 </p>
             </div>
+            <!-- /Left column -->
+
             <!-- Right column -->
             <div class="Column_2">
                 <a href="https://github.com/EChristian74" target="_blank"><img src="./images/GitHub.png" alt="GitHub Logo"></a>
             </div>
+             <!-- /Right column -->
         </div>
+        <!-- /GitHub section -->
 
         <!-- Contact section -->
-        <div class="Row" id="Contact">
+        <div class="Row">
             <!-- Contact image, left column -->
             <div class="Column_2 Column_tall">
                 <a href="https://www.linkedin.com/in/christianmethodical/">
                 <img src="./images/linkedinicon.jpg" alt="LinkedIn"></a>
             </div>
             <!-- Contact form, right column -->
-            <div class="Column_1 Column_tall">
+            <div class="Column_1 Column_tall" id="Contact">
                 <h1>Contact</h1>
                 <!-- This specifies where and how to send the form data; we are leaving it blank -->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="mailto:christianmethodical@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+                    > <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
-                        <input type="text" placeholder="Eric Christian Boland">
+                        <input type="text" placeholder="Your Name">
                     <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="christianmethodical@gmail.com">
+                        <input type="text" id="Email" name="Email" placeholder="Your Email Address">
                     <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="text" id="Message" name="Message" placeholder="Please type your message here...">
                         <input type="submit" value="SUBMIT">
                 </form>
             </div>
+        <!-- /Contact form, right column -->
         </div>
 
         <!-- Footer section -->
@@ -117,5 +196,11 @@
                 <br>
             </p>
         </footer>
+        <!-- /Footer section -->
+
+        <!-- JavaScript src -->
+        <script src="javascript/portfolio.js"></script>
+        <!-- /JavaScript src -->
     </body>
+    <!-- /Body -->
 </html>
