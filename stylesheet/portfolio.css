@@ -59,12 +59,7 @@ p:hover {
 /* Center class - this applies to all elements with the class "center" */
 .center {
     text-align: center; /* Center aligns the text */
-}
-
-/* Center class hover effect - This only affects the quote, github link, and footer */
-.center:hover {
-    transition: transform 2s; /* Makes the transform effect last 2 seconds */
-    transform: scale(1.1); /* Makes elements with class "center" increase in size by 1.1 when hovered over */
+    font-size: 12px; /* Specifies the font size for text on the footer */
 }
 
 /* Anchor elements */
@@ -106,8 +101,7 @@ img:hover {
 
 /* Styling for footer element */
 footer {
-    padding: 2%; /* Gives the footer padding that is equal to 2% of the width of the element's area */
-    background-color: white;
+    padding: 5%; /* Gives the footer padding that is equal to % of the width of the element's area */
 }
 /***** END OF GENERAL STYLING *****/
 
@@ -366,7 +360,7 @@ input[type=text]:hover {
     box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
 }
 
-/* Submit button */.
+/* Submit button */
 input[type=submit] {
     background-color: black; /* Sets the background color of the submit button to black */
     color: white; /* Sets the font color of the Submit button to white */
@@ -385,8 +379,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: white; /* Turns the background of the submit button white when the user hovers over it */
     color: black; /* Turns the font black when hovered over */
-    transform: scale(1.5); /* Makes the button increase 1.5 times in size */
-    transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds */
+    
 }
 
 /* Form element */
@@ -396,4 +389,65 @@ form {
     padding: 10px; /* Adds padding to the contact form */
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.pop-up-button {
+    background-color: #2c0980;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: grab;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    animation: movePopup 5s;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    font-family: Didot, serif; /* Sets the font family for body */
+}
+  
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: maroon;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+  
+/* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
 /***** END OF CONTACT FORM STYLING *****/

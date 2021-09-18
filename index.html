@@ -151,7 +151,8 @@
                 <p>
                     You can view my coding projects on my GitHub profile here:
                     <br>
-                    <p class="center"><a href="https://github.com/EChristian74" target="_blank">The Tech Academy Github</a></p>
+                    <p class="center"><a href="https://github.com/EChristian74" target="_blank">
+                        EChristian74 @ Github</a></p>
                 </p>
             </div>
             <!-- /Left column -->
@@ -172,19 +173,33 @@
                 <img src="./images/linkedinicon.jpg" alt="LinkedIn"></a>
             </div>
             <!-- Contact form, right column -->
-            <div class="Column_1 Column_tall" id="Contact">
-                <h1>Contact</h1>
-                <!-- This specifies where and how to send the form data; we are leaving it blank -->
-                <form action="mailto:christianmethodical@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-                    > <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
-                    <label>Name:</label>
-                        <input type="text" placeholder="Your Name">
-                    <label>Email:</label>
-                        <input type="text" id="Email" name="Email" placeholder="Your Email Address">
-                    <label>Message:</label>
-                        <input type="text" id="Message" name="Message" placeholder="Please type your message here...">
-                        <input type="submit" value="SUBMIT">
-                </form>
+        <div class="Column_1 Column_tall" id="Contact">
+            <div>
+                <p>
+                    As you contemplate your decision whether pursuing recruitment of an entry-level developer to your team may be worthwhile, I invite you to contact me to acquire a formidable list of professional references.  Although, I may be classified as "entry-level" as a developer, I am very seasoned as a professional in many other respects that I guarantee will add notable value to your team. 
+                    <br>
+                    <br>In addition to your review of <a href="https://www.learncodinganywhere.com/codingbootcamps" target="_blank">The Tech Academy</a> Software Developer program details, my <a href="https://github.com/EChristian74" target="_blank">GitHub</a> repository, my <a href="https://www.linkedin.com/in/christianmethodical/" target="_blank">LinkedIn</a> profile, it is my view that acquisition of some additional perspective concerning my personality, professionalism, work ethic, loyalty, and so on from some accomplished professional references will instill the needed confidence that pursuit of a meeting with me will not be a wasted endeavor.
+                    <br>
+                    <br>Please contact me today!
+                </p>
+            </div>
+            <div id="Contact">
+                <button onclick="openForm()" class="pop-up-button">CONTACT</button>            
+                <div class="form-popup" id="myForm" style="display: none;">
+                    <form action="https://formspree.io/f/mleazlbw" method="POST" class="form-container" enctype="text/plain">
+                        <h1>Contact</h1>
+                        <label for="name"></label>
+                        <input type="text" id="name" placeholder="Type you name here" name="name" required>
+                        <label for="phone"></label>
+                        <input type="text" id="phone" placeholder="Type your phone number here" name="phone">
+                        <label for="email"></label>
+                        <input type="text" id="email" placeholder="Type your email address here" name="email" required>
+                        <label for="message"></label>
+                        <input type="text" id="message" placeholder="Type your message here" name="message" required>
+                        <button type="submit" class="btn" name="submit">SUBMIT</button>
+                        <button type="button" class="btn" name="close" onclick="closeForm()">CLOSE</button>
+                    </form>
+                </div>
             </div>
         <!-- /Contact form, right column -->
         </div>
