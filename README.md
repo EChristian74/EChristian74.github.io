@@ -26,5 +26,6 @@ Author Eric C. Boland
 
 Version History
 
-* v1.0 - Published 6/12/2021.
+* v1.0 - Published 6/12/2021
 * v2.0 - Published 7/21/2021
+* v3.0 - Published 9/18/2021
