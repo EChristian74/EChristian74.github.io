@@ -1,43 +1,29 @@
 # EChristian74.github.io
 
-Repository of Student Portfolio website stemming from my tenure at The Tech Academy boding boot camp (2021).
+Repository for Software Developer Portfolio Website that serves as a launching point to all peripheral professional repositories, including [GitHub](https://github.com/EChristian74), [LinkedIn](https://www.linkedin.com/in/christianmethodical/), etc.
 
-Dependencies
+## Dependencies:
 
-Windows 10 OS
-HTML5
-CSS
-Git Bash
-GitHub Desktop
-Notepad++
-Visual Studio
-Bootstrap
-
-
-Installatiions
-
-GitHub (https://github.com/)
-GitHub Desktop (https://desktop.github.com/)
-Getting Started with GitHub (https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
-Creating your first repository using GitHub Desktop (https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/creating-your-first-repository-using-github-desktop)
-Notepad++ (https://download.cnet.com/Notepad-32-bit/3000-2352_4-10327521.html)
-Visual Studio
+* [Windows 10 OS](https://www.microsoft.com/en-us/software-download/)
+* [HTML5](https://www.microsoft.com/en-us/p/html5-css-php-javascript/9nblggh08ltm?activetab=pivot:overviewtab)
+* [CSS](https://www.microsoft.com/en-us/software-download/)
+* [JavaScript](https://www.microsoft.com/en-us/software-download/)
+* [GitHub DeskTop](https://desktop.github.com/)
+* [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
+* [PIP](https://pip.pypa.io/en/stable/installation/)
 
 
-Project
+## Introduction: {#introduction-id}
 
-Student Portfolio Site - This page is essentially a student porfolio landing page from which one can link to the coding bootcamp which I attended (The Tech Academy), in addition to links to my GitHub and my LinkedIn profile are embedded.
-
-
-Author Eric C. Boland
-
-* GitHub:@EChristian74
-* LinkedIn:https://www.linkedin.com/in/christianmethodical/
-* Email:christianmethodical@gmail.com
+The purpose of this repository is for detail presentation Software Developer Portfolio Website for which develoment first began during the duration of my time whilst attending [The Tech Academy Software Developer Bootcamp](https://www.learncodinganywhere.com/codingbootcamps), based in Portland, Oregon and is a subsidiary of © Prosper Consulting Inc.
 
 
-Version History
+## Version History: {#version-id}
 
 * v1.0 - Published 6/12/2021
 * v2.0 - Published 7/21/2021
 * v3.0 - Published 9/18/2021
+* v4.0 - Published 1/5/2022
+
+*Jump to: [Dependencies](#Dependencies) , [Introduction](#introduction), [Version History](#version)*
+
