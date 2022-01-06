@@ -2,12 +2,12 @@
 
 /* Applies to entire document */
 html {
-    scroll-behavior: smooth;  /* Eensures smooth page scrolling when nav bar elements clicked */
+    scroll-behavior: smooth;  /* Ensures smooth page scrolling when nav bar elements clicked */
 }
 
 /* Body */
 body {
-    margin: 0%;  /* Ensures site display to the edge of the browser */
+
     opacity: 3; /* This and transition alters page loading fade in effect */
     transition: 5s opacity; /* Results in 5 second fade in */
     font-family: Didot, serif; /* Sets the font family for body */
@@ -19,9 +19,9 @@ body {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Sets the font family of all h1 headings */
+    font-family: Verdana, Geneva, Tacoma, sans-serif; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
-    margin-top: 1%; /* Adds a small margin above h1 elements */
+    margin: auto; /* Adds a small margin above h1 elements */
     color: #2c0980; /* Sets the font color for h1 elements */
 }
 
@@ -29,7 +29,6 @@ h1 {
 h1:hover {
     filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
     transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
-   
     transition: transform 2s; /* Causes the transformation to last 1 second */
 }
 
@@ -41,13 +40,24 @@ h1:hover {
 
 /* Paragraph elements */
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tacoma, sans-serif; /* Sets font family */
     text-align: center; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 14px; /* Sets the font size for p elements */
     padding-left: 10px; /* Adds padding to the left of the paragraph element */
     padding-right: 10px; /* Adds padding to the right of the paragraph element */
-    margin: auto auto auto auto; /* Centers all paragraph text */
+    margin: 0.5 auto auto auto; /* Centers all paragraph text */
+}
+
+/* List elements */
+li {
+    font-family: Verdana, Geneva, Tacoma, sans-serif; /* Sets font family */
+    text-align: left; /* Justify text within paragraph elements */
+    letter-spacing: 1px; /* This expands the text slightly */
+    font-size: 12px; /* Sets the font size for p elements */
+    padding-left: 10px; /* Adds padding to the left of the paragraph element */
+    padding-right: 10px; /* Adds padding to the right of the paragraph element */
+    margin: 0.5 auto auto auto; /* Centers all paragraph text */
 }
 
 /* Paragraph element hover effect */
@@ -65,7 +75,7 @@ p:hover {
 /* Anchor elements */
 a {
     color: blue; /* Ensures links are blue */
-    cursor: grab; /* Ensures links change the mouse to a grab symbol when hovered over or clicked */
+    cursor: pointer; /* Ensures links change the mouse to a grab symbol when hovered over or clicked */
 }
 
 /* Quotation elements */
@@ -76,18 +86,22 @@ q {
 /* Primary Image elements */
 img {
     filter: grayscale(55%); /* Rids our pictures of 55% of their color */
-    border-radius: 8px; /* Gives images slightly rounded corners */
+    float: centered;
+    position: center;
+    vertical-align: middle;
+    width: 335px;
     max-width: 100%; /* Ensures images stay within the width of their container */
-    height: 350px; /* Sets height of all images */
+    max-height: 100%; /* Ensures images stay within the width of their container */
+    height: 300px; /* Sets height of all images */
     margin: auto auto auto auto; /* Allows browser to set auto adjust margins */
     display: block;  /* Ensures other text will be displayed on the same line or row */
+    border-radius: 7px 7px 0px 0px; /* Gives the text background rounded corners on the bottom left and right corners */
+    object-fit: fill;
 }
 
 /* Image element hover effects */
 img:hover {
 	filter: grayscale(5%);  /* Brings back most of the image's color when hovered over */
-    transition: transform 1s; /* Transition lasts 1 second */
-	transform: scale(1.05); /* Image is increased slightly when hovered over */
 }
 
 /* @media rule used in media queries to apply different styles for different media/types of devices */
@@ -108,7 +122,7 @@ footer {
 /***** NAVBAR STYLING *****/
 .Navbar {
     overflow: hidden; /* Ensures any content that overflows beyond the boundary of our nav bar is not displayed */
-    background-color:midnightblue; /* Colors the navbar black */
+    background-color: midnightblue; /* Colors the navbar black */
     position: fixed; /* Keeps the navbar at the top of the screen */
     top: 0; /* Ensures no space above the navbar */
     width: 100%; /* Makes the navbar span the width of the page */
@@ -126,7 +140,7 @@ footer {
 
 /* Navbar links */
 .Navbar a {
-    float: left; /* Secifies that text floats on the left on the navbar */
+    float: left; /* Specifies that text floats on the left on the navbar */
     display: block; /* Ensures other text displayed on the same line or row */
     color: white; /* Font color for text on our navbar */
     padding: 14px 16px; /* Adds padding around our text */
@@ -162,16 +176,16 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* Targets element on the navbar with the "active" class */
-    background-color:maroon;
+    background-color: maroon;
 }
 /***** END OF NAVBAR STYLING *****/
 
 /***** VIDEO STYLING *****/
 /* Formatting for background video */
 #Typing_Video {
-    position: fixed; /* Gixes the video to the page */
+    position: fixed; /* Fixes the video to the page */
     right: 0; /* Ensures there is no space between the edge of the video and the edge of the page */
-    bottom: 0; /* Eensures no space between bottom of video and bottom of page */
+    bottom: 0; /* Ensures no space between bottom of video and bottom of page */
     min-width: 100%; /* Ensures the video is displayed across the full width of the page */
     z-index: -1; /* Places video behind the other elements */
 }
@@ -211,9 +225,9 @@ div {
 }
 
 .Column_1 {
-    float: left;
+    float: left; /* Specifies that text floats on the left on the navbar */
     width: 50%; /* This ensures the column takes up half of the page width */
-    padding: 8px; 
+    padding: 8px; /* Sets padding on all sides */
     padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
     height: 420px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
@@ -227,12 +241,12 @@ div {
 }
 
 .Column_2 {
-    float: left;
-    width: 50%;
-    padding: 8px;
-    padding-top: 3%;
-    height: 420px;
-    background-color: #3d3f03;
+    float: left; /* Specifies that text floats on the left on the navbar */
+    width: 50%; /* This ensures the column takes up half of the page width */
+    padding: 8px; /* Sets padding on all sides */
+    padding-top: 3%; /* This ensures there is space between the top of the column and our headings */
+    height: 420px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    background-color: #3d3f03; /* Sets the background color of the columns with class Column_1 */
 }
 
 /* This class is applied to the columns in the final row, overriding the height and padding to provide more room for the contact form  while keeping the rest of the formatting from Column_1 or Column_2 */
@@ -241,7 +255,7 @@ div {
     height: 450px;
 }
 
-/* Iinserts something after the content of selected elements (in this case the elements with class "Row") */
+/* Inserts something after the content of selected elements (in this case the elements with class "Row") */
 .Row:after {
 	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
@@ -287,15 +301,14 @@ div {
 
 /* prev and next buttons */
 .Previous, .Next {
-    cursor: grab; /* Changes the mouse to a grab icon when the buttons are selected */
+    cursor: pointer; /* Changes the mouse to a grab icon when the buttons are selected */
     position: absolute; /* This makes the next and previous buttons positioned relative to the slideshow container */
-    top: 40%; /* This moves the prev and next icons up in the slideshow container */
-    width: auto; /* The width of the buttons is automatically adjusted based on the content */
-    padding: 2vw; /* Adds padding equal to 2% of the viewport width */
-    color: #3d3f03; /* Font color for prev and next icons */
+    top: 3%; /* This moves the prev and next icons up in the slideshow container */
+    width: fit-content; /* The width of the buttons is automatically adjusted based on the content */
+    padding: 3vw; /* Adds padding equal to 2% of the viewport width */
+    color: maroon; /* Font color for prev and next icons */
     font-weight: bold; /* Applies bold to font */
     font-size: 5.0vw; /* Font size for prev and next icons */
-    border-radius: 2 3px 3px 2; /* Adds a slightly rounded border on the top and bottom right corners */
     user-select: none; /* Property makes it so that the user cannot highlight the text */
     transition: 0.6s ease; /* Specifies details of hover transition */
 }
@@ -308,17 +321,19 @@ div {
 
 /* Hover effect on slide show buttons */
 .Previous:hover, .Next:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Makes the background of the arrows a transparent gray color */
-    color: white; /* Makes the arrows white when hovered over */
+    color: midnightblue; /* Makes the arrows white when hovered over */
 }
 
 /* Slideshow text */
 .text {
-    color: white; 
-    padding: 1vw;
-    position: absolute; /* Ensures text is positioned within image */
+    color: white; /* Sets the color of the text under the slideshow */
+    padding: 0.5vw; /* Sets padding on all sides relative to the viewport */
+    margin: auto auto auto auto; /* Allows browser to set auto adjust margins */
+    max-width: 100%; /* Ensures images stay within the width of their container */
+    max-height: 100%; /* Ensures images stay within the width of their container */
+    position: center; /* Ensures text is positioned within image */
     bottom: 0; /* Sets the text at the bottom of the image */
-    width: 100%; /* Ensures element covers the full width of the image */
+    width: 335px; /* Ensures element covers the full width of the image */
     text-align: center; /* Center text within the image */
     font-family: Perpetua, Rockwell Extra Bold;
     letter-spacing: .1vw; /* Gives slight spacing between the letters */
@@ -329,16 +344,18 @@ div {
 }
 
 .dot {
-    cursor: grab; /* The cursor changes to grab when hovered over the dots */
-    height: 1.5vw; /* The dots are sized relative to the viewport width */
-    width: 1.5vw;
+    position: center;
+    cursor: pointer; /* The cursor changes to grab when hovered over the dots */
+    height: 2.5vw; /* The dots are sized relative to the viewport width */
+    width: 2.5vw; /* The dots are sized relative to the viewport width */
     letter-spacing: 1vw; /* Expands the text slightly */
-    margin: .25vw;
+    margin: .35vw;
     background-color: rgb(201, 197, 9); /* Colors dot icons */
-    border-radius: 50%; /* Makes the dots circles by rounding each corner */
-    display: inline-block; /* Allows the dots to sit next to eachother rather than on a new line */
+    border-radius: 35%; /* Makes the dots circles by rounding each corner */
+    display: inline-block; /* Allows the dots to sit next to each other rather than on a new line */
     transition: background-color 0.6s ease; /* When clicked on the dots transition to a different color when clicked or hovered over (the affect is defined below) */
     z-index: 1; /* Ensures other elements don't display over the dots */
+
 }
 
 /***** CONTACT FORM STYLING *****/
@@ -368,7 +385,7 @@ input[type=submit] {
     padding: 12px 20px; /* Adds padding to the submit button */
     border: none; /* Removes the border from the submit button */
     border-radius: 4px; /* Gives the submit button the same rounded corners as the text boxes */
-    cursor: grab; /* Changes the cursor to grab icon when over the submit button */
+    cursor: pointer; /* Changes the cursor to grab icon when over the submit button */
     display: block; /* Allows the submit button to be centered */
     margin-left: auto; /* In combination with "margin-right: auto" this will center the submit button */
     margin-right: auto;
@@ -396,7 +413,7 @@ form {
     color: white;
     padding: 16px 20px;
     border: none;
-    cursor: grab;
+    cursor: pointer;
     opacity: 0.8;
     position: fixed;
     bottom: 23px;
@@ -442,12 +459,12 @@ form {
     width: 100%;
     margin-bottom:10px;
     opacity: 0.8;
+
 }
-  
-  
+
 /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
+  opacity: 0.6;
 }
 
 /***** END OF CONTACT FORM STYLING *****/
