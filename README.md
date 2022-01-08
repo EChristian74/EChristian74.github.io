@@ -1,6 +1,6 @@
 #EChristian74.github.io
 
-The purpose of this repository is for detail presentation Software Developer Portfolio Website for which develoment first began during the duration of my time whilst attending [The Tech Academy Software Developer Bootcamp](https://www.learncodinganywhere.com/codingbootcamps), based in Portland, Oregon and is a subsidiary of © Prosper Consulting Inc.
+The purpose of this repository is for detail presentation Software Developer Portfolio Website for which development first began during the duration of my time whilst attending [The Tech Academy Software Developer Bootcamp](https://www.learncodinganywhere.com/codingbootcamps), based in Portland, Oregon and is a subsidiary of © Prosper Consulting Inc.
 
 ## Dependencies
 
