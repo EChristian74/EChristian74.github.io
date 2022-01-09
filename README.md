@@ -1,4 +1,4 @@
-#EChristian74.github.io
+# EChristian74.github.io
 
 The purpose of this repository is for detail presentation Software Developer Portfolio Website for which development first began during the duration of my time whilst attending [The Tech Academy Software Developer Bootcamp](https://www.learncodinganywhere.com/codingbootcamps), based in Portland, Oregon and is a subsidiary of © Prosper Consulting Inc.
 
@@ -44,17 +44,9 @@ Some key features of this page include the following:
 * Dynamic pop-out style contact form that launches to the user's default email application that is intended to serve as a convenience to assist the user as it concerns initiating future contact with me the presenter of the page. 
 
 
-## Version History
-
-* v1.0 - Published 6/12/2021
-* v2.0 - Published 7/21/2021
-* v3.0 - Published 9/18/2021
-* v4.0 - Published 1/5/2022
-
-Jump to: [Dependencies](#dependencies), [Introduction](#introduction), [Features](#features), [Version History](#version-history)
-
 ### Links: 
 * GitHub: <https://github.com/EChristian74>
 * LinkedIn: <https://www.linkedin.com/in/christianmethodical/>
 * Email: <christianmethodical@gmail.com>
 
+Jump to: [Dependencies](#dependencies), [Introduction](#introduction), [Features](#features), [Version History](#version-history), [Page Top](#EChristian74.github.io)
