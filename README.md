@@ -2,6 +2,7 @@
 
 The purpose of this repository is for detail presentation Software Developer Portfolio Website for which development first began during the duration of my time whilst attending [The Tech Academy Software Developer Bootcamp](https://www.learncodinganywhere.com/codingbootcamps), based in Portland, Oregon and is a subsidiary of © Prosper Consulting Inc.
 
+
 ## Dependencies
 
 * [Windows 10 OS](https://www.microsoft.com/en-us/software-download/)
