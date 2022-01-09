@@ -11,6 +11,7 @@ The purpose of this repository is for detail presentation Software Developer Por
 * [GitHub DeskTop](https://desktop.github.com/)
 * [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
 * [PIP](https://pip.pypa.io/en/stable/installation/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
 
 
 ## Introduction
