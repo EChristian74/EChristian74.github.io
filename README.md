@@ -49,4 +49,4 @@ Some key features of this page include the following:
 * LinkedIn: <https://www.linkedin.com/in/christianmethodical/>
 * Email: <christianmethodical@gmail.com>
 
-Jump to: [Dependencies](#dependencies), [Introduction](#introduction), [Features](#features), [Version History](#version-history), [Page Top](#EChristian74.github.io)
+Jump to: [Dependencies](#dependencies), [Introduction](#introduction), [Features](#features), [Page Top](#EChristian74.github.io)
