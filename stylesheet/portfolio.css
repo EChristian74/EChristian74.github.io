@@ -88,7 +88,6 @@ img {
     filter: grayscale(55%); /* Rids our pictures of 55% of their color */
     float: centered;
     position: center;
-    vertical-align: middle;
     width: 335px;
     max-width: 100%; /* Ensures images stay within the width of their container */
     max-height: 100%; /* Ensures images stay within the width of their container */
